@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_y_6
 {
-    partial class combo3
+    partial class combo4
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@ namespace Semana_5_y_6
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Combo3";
+            this.Text = "combo4";
         }
 
         #endregion

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_y_6
 {
-    public partial class combo3 : Form
+    public partial class combo4 : Form
     {
-        public combo3()
+        public combo4()
         {
             InitializeComponent();
         }

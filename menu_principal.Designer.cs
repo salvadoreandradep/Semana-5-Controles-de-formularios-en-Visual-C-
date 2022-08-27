@@ -32,19 +32,21 @@ namespace Semana_5_y_6
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_principal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.combosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.combo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.combo2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.combo3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.combo3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.combo4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ensaladasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sinExsitenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.postresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.heladoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pastelesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tartaletasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acerdaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.combo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.combo2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.combo3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sinExsitenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.heladoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pastelesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tartaletasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,10 +71,48 @@ namespace Semana_5_y_6
             this.combosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.combo1ToolStripMenuItem,
             this.combo2ToolStripMenuItem,
-            this.combo3ToolStripMenuItem});
+            this.combo3ToolStripMenuItem,
+            this.combo3ToolStripMenuItem1,
+            this.combo4ToolStripMenuItem});
             this.combosToolStripMenuItem.Name = "combosToolStripMenuItem";
             this.combosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.combosToolStripMenuItem.Text = "Combos";
+            this.combosToolStripMenuItem.Click += new System.EventHandler(this.combosToolStripMenuItem_Click);
+            // 
+            // combo1ToolStripMenuItem
+            // 
+            this.combo1ToolStripMenuItem.Name = "combo1ToolStripMenuItem";
+            this.combo1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.combo1ToolStripMenuItem.Text = "Pagina de Combos";
+            this.combo1ToolStripMenuItem.Click += new System.EventHandler(this.combo1ToolStripMenuItem_Click);
+            // 
+            // combo2ToolStripMenuItem
+            // 
+            this.combo2ToolStripMenuItem.Name = "combo2ToolStripMenuItem";
+            this.combo2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.combo2ToolStripMenuItem.Text = "Combo 1";
+            this.combo2ToolStripMenuItem.Click += new System.EventHandler(this.combo2ToolStripMenuItem_Click);
+            // 
+            // combo3ToolStripMenuItem
+            // 
+            this.combo3ToolStripMenuItem.Name = "combo3ToolStripMenuItem";
+            this.combo3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.combo3ToolStripMenuItem.Text = "Combo 2";
+            this.combo3ToolStripMenuItem.Click += new System.EventHandler(this.combo3ToolStripMenuItem_Click);
+            // 
+            // combo3ToolStripMenuItem1
+            // 
+            this.combo3ToolStripMenuItem1.Name = "combo3ToolStripMenuItem1";
+            this.combo3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.combo3ToolStripMenuItem1.Text = "Combo 3";
+            this.combo3ToolStripMenuItem1.Click += new System.EventHandler(this.combo3ToolStripMenuItem1_Click);
+            // 
+            // combo4ToolStripMenuItem
+            // 
+            this.combo4ToolStripMenuItem.Name = "combo4ToolStripMenuItem";
+            this.combo4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.combo4ToolStripMenuItem.Text = "Combo 4";
+            this.combo4ToolStripMenuItem.Click += new System.EventHandler(this.combo4ToolStripMenuItem_Click);
             // 
             // ensaladasToolStripMenuItem
             // 
@@ -83,6 +123,12 @@ namespace Semana_5_y_6
             this.ensaladasToolStripMenuItem.Text = "Entradas";
             this.ensaladasToolStripMenuItem.Click += new System.EventHandler(this.ensaladasToolStripMenuItem_Click);
             // 
+            // sinExsitenciasToolStripMenuItem
+            // 
+            this.sinExsitenciasToolStripMenuItem.Name = "sinExsitenciasToolStripMenuItem";
+            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.sinExsitenciasToolStripMenuItem.Text = "Bocadillos";
+            // 
             // postresToolStripMenuItem
             // 
             this.postresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -92,6 +138,24 @@ namespace Semana_5_y_6
             this.postresToolStripMenuItem.Name = "postresToolStripMenuItem";
             this.postresToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.postresToolStripMenuItem.Text = "Postres";
+            // 
+            // heladoToolStripMenuItem
+            // 
+            this.heladoToolStripMenuItem.Name = "heladoToolStripMenuItem";
+            this.heladoToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.heladoToolStripMenuItem.Text = "Helado";
+            // 
+            // pastelesToolStripMenuItem
+            // 
+            this.pastelesToolStripMenuItem.Name = "pastelesToolStripMenuItem";
+            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.pastelesToolStripMenuItem.Text = "Pasteles";
+            // 
+            // tartaletasToolStripMenuItem
+            // 
+            this.tartaletasToolStripMenuItem.Name = "tartaletasToolStripMenuItem";
+            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.tartaletasToolStripMenuItem.Text = "Tartaletas";
             // 
             // facturaToolStripMenuItem
             // 
@@ -118,49 +182,7 @@ namespace Semana_5_y_6
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // combo1ToolStripMenuItem
-            // 
-            this.combo1ToolStripMenuItem.Name = "combo1ToolStripMenuItem";
-            this.combo1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.combo1ToolStripMenuItem.Text = "Combo 1";
-            // 
-            // combo2ToolStripMenuItem
-            // 
-            this.combo2ToolStripMenuItem.Name = "combo2ToolStripMenuItem";
-            this.combo2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.combo2ToolStripMenuItem.Text = "Combo 2";
-            // 
-            // combo3ToolStripMenuItem
-            // 
-            this.combo3ToolStripMenuItem.Name = "combo3ToolStripMenuItem";
-            this.combo3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.combo3ToolStripMenuItem.Text = "Combo 3";
-            // 
-            // sinExsitenciasToolStripMenuItem
-            // 
-            this.sinExsitenciasToolStripMenuItem.Name = "sinExsitenciasToolStripMenuItem";
-            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sinExsitenciasToolStripMenuItem.Text = "Bocadillos";
-            // 
-            // heladoToolStripMenuItem
-            // 
-            this.heladoToolStripMenuItem.Name = "heladoToolStripMenuItem";
-            this.heladoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.heladoToolStripMenuItem.Text = "Helado";
-            // 
-            // pastelesToolStripMenuItem
-            // 
-            this.pastelesToolStripMenuItem.Name = "pastelesToolStripMenuItem";
-            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pastelesToolStripMenuItem.Text = "Pasteles";
-            // 
-            // tartaletasToolStripMenuItem
-            // 
-            this.tartaletasToolStripMenuItem.Name = "tartaletasToolStripMenuItem";
-            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tartaletasToolStripMenuItem.Text = "Tartaletas";
-            // 
-            // Form1
+            // menu_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -169,7 +191,7 @@ namespace Semana_5_y_6
             this.ClientSize = new System.Drawing.Size(1008, 832);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "menu_principal";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -195,6 +217,8 @@ namespace Semana_5_y_6
         private System.Windows.Forms.ToolStripMenuItem acerdaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem combo3ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem combo4ToolStripMenuItem;
     }
 }
 
