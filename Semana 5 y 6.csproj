@@ -99,6 +99,18 @@
     </Compile>
     <Compile Include="principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="combo1.resx">
+      <DependentUpon>combo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="combo2.resx">
+      <DependentUpon>combo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Combo3.resx">
+      <DependentUpon>combo3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="combo4.resx">
+      <DependentUpon>combo4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="combo_principal.resx">
       <DependentUpon>combo_principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +163,18 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sopa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camarones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pescado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lonja.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

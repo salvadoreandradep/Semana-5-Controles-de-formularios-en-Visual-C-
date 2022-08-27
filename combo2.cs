@@ -16,5 +16,10 @@ namespace Semana_5_y_6
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

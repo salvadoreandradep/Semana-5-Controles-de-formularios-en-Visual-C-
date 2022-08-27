@@ -83,9 +83,49 @@ namespace Semana_5_y_6.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap camarones {
+            get {
+                object obj = ResourceManager.GetObject("camarones", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap i24_pollo_frito_2021_1024x536 {
             get {
                 object obj = ResourceManager.GetObject("i24_pollo_frito_2021_1024x536", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lonja {
+            get {
+                object obj = ResourceManager.GetObject("lonja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pescado {
+            get {
+                object obj = ResourceManager.GetObject("pescado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sopa {
+            get {
+                object obj = ResourceManager.GetObject("sopa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
