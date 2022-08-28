@@ -45,8 +45,8 @@ namespace Semana_5_y_6
             this.tartaletasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,7 +125,7 @@ namespace Semana_5_y_6
             // sinExsitenciasToolStripMenuItem
             // 
             this.sinExsitenciasToolStripMenuItem.Name = "sinExsitenciasToolStripMenuItem";
-            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.sinExsitenciasToolStripMenuItem.Text = "Bocadillos";
             // 
             // postresToolStripMenuItem
@@ -141,19 +141,19 @@ namespace Semana_5_y_6
             // heladoToolStripMenuItem
             // 
             this.heladoToolStripMenuItem.Name = "heladoToolStripMenuItem";
-            this.heladoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.heladoToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.heladoToolStripMenuItem.Text = "Helado";
             // 
             // pastelesToolStripMenuItem
             // 
             this.pastelesToolStripMenuItem.Name = "pastelesToolStripMenuItem";
-            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.pastelesToolStripMenuItem.Text = "Pasteles";
             // 
             // tartaletasToolStripMenuItem
             // 
             this.tartaletasToolStripMenuItem.Name = "tartaletasToolStripMenuItem";
-            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.tartaletasToolStripMenuItem.Text = "Tartaletas";
             // 
             // facturaToolStripMenuItem
@@ -170,18 +170,18 @@ namespace Semana_5_y_6
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de";
+            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // acercaDeToolStripMenuItem
-            // 
-            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.acercaDeToolStripMenuItem.Text = "Acerca de";
             // 
             // menu_principal
             // 
@@ -191,9 +191,10 @@ namespace Semana_5_y_6
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1008, 832);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "menu_principal";
-            this.Text = "Form1";
+            this.Text = "Don Camaron";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
