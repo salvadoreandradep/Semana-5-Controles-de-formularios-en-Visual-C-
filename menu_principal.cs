@@ -100,5 +100,11 @@ namespace Semana_5_y_6
         {
 
         }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

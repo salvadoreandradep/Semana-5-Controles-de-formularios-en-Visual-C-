@@ -47,7 +47,11 @@ namespace Semana_5_y_6
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -125,7 +129,7 @@ namespace Semana_5_y_6
             // sinExsitenciasToolStripMenuItem
             // 
             this.sinExsitenciasToolStripMenuItem.Name = "sinExsitenciasToolStripMenuItem";
-            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sinExsitenciasToolStripMenuItem.Text = "Bocadillos";
             this.sinExsitenciasToolStripMenuItem.Click += new System.EventHandler(this.sinExsitenciasToolStripMenuItem_Click);
             // 
@@ -142,21 +146,21 @@ namespace Semana_5_y_6
             // heladoToolStripMenuItem
             // 
             this.heladoToolStripMenuItem.Name = "heladoToolStripMenuItem";
-            this.heladoToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.heladoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.heladoToolStripMenuItem.Text = "Helado";
             this.heladoToolStripMenuItem.Click += new System.EventHandler(this.heladoToolStripMenuItem_Click);
             // 
             // pastelesToolStripMenuItem
             // 
             this.pastelesToolStripMenuItem.Name = "pastelesToolStripMenuItem";
-            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pastelesToolStripMenuItem.Text = "Pasteles";
             this.pastelesToolStripMenuItem.Click += new System.EventHandler(this.pastelesToolStripMenuItem_Click);
             // 
             // tartaletasToolStripMenuItem
             // 
             this.tartaletasToolStripMenuItem.Name = "tartaletasToolStripMenuItem";
-            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tartaletasToolStripMenuItem.Text = "Tartaletas";
             this.tartaletasToolStripMenuItem.Click += new System.EventHandler(this.tartaletasToolStripMenuItem_Click);
             // 
@@ -179,7 +183,7 @@ namespace Semana_5_y_6
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
@@ -190,6 +194,25 @@ namespace Semana_5_y_6
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
+            // axWindowsMediaPlayer1
+            // 
+            this.axWindowsMediaPlayer1.Enabled = true;
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(170, 137);
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(594, 492);
+            this.axWindowsMediaPlayer1.TabIndex = 1;
+            this.axWindowsMediaPlayer1.Enter += new System.EventHandler(this.axWindowsMediaPlayer1_Enter);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Semana_5_y_6.Properties.Resources._04df0c47_b8de_4a50_9cf1_076fc2b9d873_1658107158715;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1008, 808);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // menu_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -197,6 +220,8 @@ namespace Semana_5_y_6
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1008, 832);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
@@ -204,6 +229,8 @@ namespace Semana_5_y_6
             this.Text = "Don Camaron";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,6 +255,8 @@ namespace Semana_5_y_6
         private System.Windows.Forms.ToolStripMenuItem combo3ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem combo4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
