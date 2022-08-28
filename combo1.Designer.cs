@@ -148,6 +148,7 @@ namespace Semana_5_y_6
             this.button3.TabIndex = 11;
             this.button3.Text = "Agregar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -157,6 +158,7 @@ namespace Semana_5_y_6
             this.button1.TabIndex = 12;
             this.button1.Text = "Volver al menú";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // pictureBox1
             // 

@@ -67,6 +67,7 @@ namespace Semana_5_y_6
             this.menuPrincipalToolStripMenuItem.Name = "menuPrincipalToolStripMenuItem";
             this.menuPrincipalToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
             this.menuPrincipalToolStripMenuItem.Text = "Menu Principal";
+            this.menuPrincipalToolStripMenuItem.Click += new System.EventHandler(this.menuPrincipalToolStripMenuItem_Click);
             // 
             // entradasToolStripMenuItem
             // 
@@ -95,6 +96,7 @@ namespace Semana_5_y_6
             this.button1.TabIndex = 1;
             this.button1.Text = "Combo 1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -105,6 +107,7 @@ namespace Semana_5_y_6
             this.button2.TabIndex = 2;
             this.button2.Text = "Combo 2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -115,6 +118,7 @@ namespace Semana_5_y_6
             this.button3.TabIndex = 3;
             this.button3.Text = "Combo 3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -125,10 +129,11 @@ namespace Semana_5_y_6
             this.button4.TabIndex = 6;
             this.button4.Text = "Combo 4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Semana_5_y_6.Properties.Resources.i24_pollo_frito_2021_1024x536;
+            this.pictureBox3.Image = global::Semana_5_y_6.Properties.Resources.pescado;
             this.pictureBox3.Location = new System.Drawing.Point(502, 75);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(252, 149);
@@ -138,7 +143,7 @@ namespace Semana_5_y_6
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Semana_5_y_6.Properties.Resources.tipos_de_mariscos;
+            this.pictureBox2.Image = global::Semana_5_y_6.Properties.Resources.camarones;
             this.pictureBox2.Location = new System.Drawing.Point(9, 324);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(251, 131);
@@ -148,7 +153,7 @@ namespace Semana_5_y_6
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Semana_5_y_6.Properties.Resources._99_image_web;
+            this.pictureBox1.Image = global::Semana_5_y_6.Properties.Resources.sopa;
             this.pictureBox1.Location = new System.Drawing.Point(9, 64);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(251, 160);
@@ -159,7 +164,7 @@ namespace Semana_5_y_6
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Semana_5_y_6.Properties.Resources._6063031b90a87_r_d_1083_871_0;
+            this.pictureBox4.Image = global::Semana_5_y_6.Properties.Resources.lonja;
             this.pictureBox4.Location = new System.Drawing.Point(502, 324);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(250, 131);

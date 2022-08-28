@@ -91,6 +91,12 @@
     <Compile Include="combo_principal.Designer.cs">
       <DependentUpon>combo_principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factura.Designer.cs">
+      <DependentUpon>factura.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>

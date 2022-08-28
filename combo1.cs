@@ -36,5 +36,17 @@ namespace Semana_5_y_6
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            factura fs = new factura();
+            fs.ShowDialog();
+        }
     }
 }
