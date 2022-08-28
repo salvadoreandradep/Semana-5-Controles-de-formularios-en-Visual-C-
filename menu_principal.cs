@@ -61,5 +61,39 @@ namespace Semana_5_y_6
             combo4 c4 = new combo4();
             c4.ShowDialog();
         }
+
+        private void sinExsitenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bocadillos bz = new Bocadillos();
+            bz.ShowDialog();
+        }
+
+        private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            factura f = new factura();
+            f.ShowDialog();
+        }
+
+        private void heladoToolStripMenuItem_Click(object sender, EventArgs e)
+        {helados h1 = new helados();
+            h1.ShowDialog();
+        }
+
+        private void pastelesToolStripMenuItem_Click(object sender, EventArgs e)
+        {pasteles pp = new pasteles();
+            pp.ShowDialog();
+        }
+
+        private void tartaletasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tartaleta tt = new tartaleta();
+            tt.ShowDialog();
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            acercade aa = new acercade();
+            aa.ShowDialog();
+        }
     }
 }
