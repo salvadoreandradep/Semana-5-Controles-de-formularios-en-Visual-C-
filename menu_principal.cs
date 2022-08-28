@@ -95,5 +95,10 @@ namespace Semana_5_y_6
             acercade aa = new acercade();
             aa.ShowDialog();
         }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

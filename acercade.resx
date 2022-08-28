@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="_6063031b90a87_r_d_1083_871_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6063031b90a87.r_d.1083-871-0.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="camarones" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\camarones.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sopa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sopa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tipos_de_mariscos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tipos-de-mariscos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="i24_pollo_frito_2021_1024x536" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\i24_pollo_frito_2021-1024x536.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_99_image_web" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\99-image_web.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pescado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pescado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lonja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lonja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_04df0c47_b8de_4a50_9cf1_076fc2b9d873_1658107158715" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\04df0c47-b8de-4a50-9cf1-076fc2b9d873-1658107158715.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

@@ -125,7 +125,7 @@ namespace Semana_5_y_6
             // sinExsitenciasToolStripMenuItem
             // 
             this.sinExsitenciasToolStripMenuItem.Name = "sinExsitenciasToolStripMenuItem";
-            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.sinExsitenciasToolStripMenuItem.Text = "Bocadillos";
             this.sinExsitenciasToolStripMenuItem.Click += new System.EventHandler(this.sinExsitenciasToolStripMenuItem_Click);
             // 
@@ -142,21 +142,21 @@ namespace Semana_5_y_6
             // heladoToolStripMenuItem
             // 
             this.heladoToolStripMenuItem.Name = "heladoToolStripMenuItem";
-            this.heladoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.heladoToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.heladoToolStripMenuItem.Text = "Helado";
             this.heladoToolStripMenuItem.Click += new System.EventHandler(this.heladoToolStripMenuItem_Click);
             // 
             // pastelesToolStripMenuItem
             // 
             this.pastelesToolStripMenuItem.Name = "pastelesToolStripMenuItem";
-            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.pastelesToolStripMenuItem.Text = "Pasteles";
             this.pastelesToolStripMenuItem.Click += new System.EventHandler(this.pastelesToolStripMenuItem_Click);
             // 
             // tartaletasToolStripMenuItem
             // 
             this.tartaletasToolStripMenuItem.Name = "tartaletasToolStripMenuItem";
-            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.tartaletasToolStripMenuItem.Text = "Tartaletas";
             this.tartaletasToolStripMenuItem.Click += new System.EventHandler(this.tartaletasToolStripMenuItem_Click);
             // 
@@ -174,6 +174,7 @@ namespace Semana_5_y_6
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 

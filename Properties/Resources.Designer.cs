@@ -63,6 +63,16 @@ namespace Semana_5_y_6.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _04df0c47_b8de_4a50_9cf1_076fc2b9d873_1658107158715 {
+            get {
+                object obj = ResourceManager.GetObject("_04df0c47_b8de_4a50_9cf1_076fc2b9d873_1658107158715", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _6063031b90a87_r_d_1083_871_0 {
             get {
                 object obj = ResourceManager.GetObject("_6063031b90a87_r_d_1083_871_0", resourceCulture);

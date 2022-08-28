@@ -135,6 +135,9 @@
     <Compile Include="tartaleta.Designer.cs">
       <DependentUpon>tartaleta.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="acercade.resx">
+      <DependentUpon>acercade.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="combo1.resx">
       <DependentUpon>combo1.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,6 +214,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lonja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04df0c47-b8de-4a50-9cf1-076fc2b9d873-1658107158715.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
