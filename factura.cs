@@ -21,5 +21,10 @@ namespace Semana_5_y_6
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

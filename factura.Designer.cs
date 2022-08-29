@@ -31,6 +31,7 @@ namespace Semana_5_y_6
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(factura));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.AGREGAR = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -52,7 +53,7 @@ namespace Semana_5_y_6
             this.label1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -84,6 +85,16 @@ namespace Semana_5_y_6
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(463, 563);
             this.panel1.TabIndex = 0;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(6, 322);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(446, 55);
+            this.label15.TabIndex = 21;
+            this.label15.Text = "EN DESARROLLO";
             // 
             // button1
             // 
@@ -261,15 +272,15 @@ namespace Semana_5_y_6
             this.label14.Text = "FACTURA";
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
-            // label15
+            // button2
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(6, 322);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(446, 55);
-            this.label15.TabIndex = 21;
-            this.label15.Text = "EN DESARROLLO";
+            this.button2.Location = new System.Drawing.Point(141, 641);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(251, 23);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "CERRAR";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // factura
             // 
@@ -277,6 +288,7 @@ namespace Semana_5_y_6
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(534, 676);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -316,5 +328,6 @@ namespace Semana_5_y_6
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button button2;
     }
 }

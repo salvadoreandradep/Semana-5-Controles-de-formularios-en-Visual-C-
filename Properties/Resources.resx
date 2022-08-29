@@ -145,4 +145,7 @@
   <data name="_04df0c47_b8de_4a50_9cf1_076fc2b9d873_1658107158715" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\04df0c47-b8de-4a50-9cf1-076fc2b9d873-1658107158715.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

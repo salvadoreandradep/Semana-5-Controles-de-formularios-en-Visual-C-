@@ -103,6 +103,16 @@ namespace Semana_5_y_6.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga {
+            get {
+                object obj = ResourceManager.GetObject("descarga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap i24_pollo_frito_2021_1024x536 {
             get {
                 object obj = ResourceManager.GetObject("i24_pollo_frito_2021_1024x536", resourceCulture);
