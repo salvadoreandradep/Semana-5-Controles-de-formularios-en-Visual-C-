@@ -130,8 +130,14 @@
   <data name="tipos_de_mariscos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tipos-de-mariscos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="i24_pollo_frito_2021_1024x536" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\i24_pollo_frito_2021-1024x536.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_04df0c47_b8de_4a50_9cf1_076fc2b9d873_1658107158715" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04df0c47-b8de-4a50-9cf1-076fc2b9d873-1658107158715.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_99_image_web" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\99-image_web.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,16 +145,16 @@
   <data name="pescado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pescado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="waffle-cones-near-ice-cream-in-bowl-and-sprinkles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waffle-cones-near-ice-cream-in-bowl-and-sprinkles.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lonja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lonja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_04df0c47_b8de_4a50_9cf1_076fc2b9d873_1658107158715" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\04df0c47-b8de-4a50-9cf1-076fc2b9d873-1658107158715.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="i24_pollo_frito_2021_1024x536" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i24_pollo_frito_2021-1024x536.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="descarga__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mint-and-vanilla-ice-cream-melted-with-sprinkles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mint-and-vanilla-ice-cream-melted-with-sprinkles.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -27,5 +27,10 @@ namespace Semana_5_y_6
         {
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

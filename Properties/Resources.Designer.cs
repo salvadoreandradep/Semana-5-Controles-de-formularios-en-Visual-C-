@@ -143,6 +143,16 @@ namespace Semana_5_y_6.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mint_and_vanilla_ice_cream_melted_with_sprinkles {
+            get {
+                object obj = ResourceManager.GetObject("mint-and-vanilla-ice-cream-melted-with-sprinkles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pescado {
             get {
                 object obj = ResourceManager.GetObject("pescado", resourceCulture);
@@ -166,6 +176,16 @@ namespace Semana_5_y_6.Properties {
         internal static System.Drawing.Bitmap tipos_de_mariscos {
             get {
                 object obj = ResourceManager.GetObject("tipos_de_mariscos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap waffle_cones_near_ice_cream_in_bowl_and_sprinkles {
+            get {
+                object obj = ResourceManager.GetObject("waffle-cones-near-ice-cream-in-bowl-and-sprinkles", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
