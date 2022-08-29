@@ -41,8 +41,6 @@ namespace Semana_5_y_6
             this.sinExsitenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.postresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heladoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pastelesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tartaletasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -129,19 +127,18 @@ namespace Semana_5_y_6
             // sinExsitenciasToolStripMenuItem
             // 
             this.sinExsitenciasToolStripMenuItem.Name = "sinExsitenciasToolStripMenuItem";
-            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sinExsitenciasToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.sinExsitenciasToolStripMenuItem.Text = "Bocadillos";
             this.sinExsitenciasToolStripMenuItem.Click += new System.EventHandler(this.sinExsitenciasToolStripMenuItem_Click);
             // 
             // postresToolStripMenuItem
             // 
             this.postresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.heladoToolStripMenuItem,
-            this.pastelesToolStripMenuItem,
-            this.tartaletasToolStripMenuItem});
+            this.heladoToolStripMenuItem});
             this.postresToolStripMenuItem.Name = "postresToolStripMenuItem";
             this.postresToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.postresToolStripMenuItem.Text = "Postres";
+            this.postresToolStripMenuItem.Click += new System.EventHandler(this.postresToolStripMenuItem_Click);
             // 
             // heladoToolStripMenuItem
             // 
@@ -149,20 +146,6 @@ namespace Semana_5_y_6
             this.heladoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.heladoToolStripMenuItem.Text = "Helado";
             this.heladoToolStripMenuItem.Click += new System.EventHandler(this.heladoToolStripMenuItem_Click);
-            // 
-            // pastelesToolStripMenuItem
-            // 
-            this.pastelesToolStripMenuItem.Name = "pastelesToolStripMenuItem";
-            this.pastelesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pastelesToolStripMenuItem.Text = "Pasteles";
-            this.pastelesToolStripMenuItem.Click += new System.EventHandler(this.pastelesToolStripMenuItem_Click);
-            // 
-            // tartaletasToolStripMenuItem
-            // 
-            this.tartaletasToolStripMenuItem.Name = "tartaletasToolStripMenuItem";
-            this.tartaletasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tartaletasToolStripMenuItem.Text = "Tartaletas";
-            this.tartaletasToolStripMenuItem.Click += new System.EventHandler(this.tartaletasToolStripMenuItem_Click);
             // 
             // facturaToolStripMenuItem
             // 
@@ -247,8 +230,6 @@ namespace Semana_5_y_6
         private System.Windows.Forms.ToolStripMenuItem sinExsitenciasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem postresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem heladoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pastelesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tartaletasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem facturaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;

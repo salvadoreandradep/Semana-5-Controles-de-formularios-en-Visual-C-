@@ -80,14 +80,12 @@ namespace Semana_5_y_6
         }
 
         private void pastelesToolStripMenuItem_Click(object sender, EventArgs e)
-        {pasteles pp = new pasteles();
-            pp.ShowDialog();
+        {
         }
 
         private void tartaletasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            tartaleta tt = new tartaleta();
-            tt.ShowDialog();
+           
         }
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -104,6 +102,11 @@ namespace Semana_5_y_6
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void postresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
         }
     }
