@@ -31,9 +31,6 @@ namespace Semana_5_y_6
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuPrincipalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.entradasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.postresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -52,10 +49,7 @@ namespace Semana_5_y_6
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuPrincipalToolStripMenuItem,
-            this.entradasToolStripMenuItem,
-            this.postresToolStripMenuItem,
-            this.facturaToolStripMenuItem});
+            this.menuPrincipalToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(762, 24);
@@ -68,24 +62,6 @@ namespace Semana_5_y_6
             this.menuPrincipalToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
             this.menuPrincipalToolStripMenuItem.Text = "Menu Principal";
             this.menuPrincipalToolStripMenuItem.Click += new System.EventHandler(this.menuPrincipalToolStripMenuItem_Click);
-            // 
-            // entradasToolStripMenuItem
-            // 
-            this.entradasToolStripMenuItem.Name = "entradasToolStripMenuItem";
-            this.entradasToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.entradasToolStripMenuItem.Text = "Entradas";
-            // 
-            // postresToolStripMenuItem
-            // 
-            this.postresToolStripMenuItem.Name = "postresToolStripMenuItem";
-            this.postresToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
-            this.postresToolStripMenuItem.Text = "Postres";
-            // 
-            // facturaToolStripMenuItem
-            // 
-            this.facturaToolStripMenuItem.Name = "facturaToolStripMenuItem";
-            this.facturaToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.facturaToolStripMenuItem.Text = "Factura";
             // 
             // button1
             // 
@@ -205,9 +181,6 @@ namespace Semana_5_y_6
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuPrincipalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem entradasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem postresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem facturaToolStripMenuItem;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
